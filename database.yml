@@ -1,0 +1,4 @@
+adapter: sqlite3
+database: db/pail.sqlite3
+timeout: 5000
+pool: 5
