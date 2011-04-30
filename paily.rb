@@ -8,9 +8,9 @@ require 'lib/listeners/dbrespond'
 require 'lib/commands/dbcmds'
 
 YAIB.construct do |c|
-	c.nick = "Paily"
+	c.nick = "Paily-dev"
 	c.server = "irc.freenode.net"
-	c.channels = ["#whitefall"]
+	c.channels = ["#pailytest"]
 	c.commands = [DBCmd]
 	c.listeners = [DBRespond]
 	c.prefix = "Paily: "

@@ -245,3 +245,64 @@ D, [2011-04-30T19:06:16.214286 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms
 D, [2011-04-30T19:06:25.335788 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '?' LIMIT 1[0m
 D, [2011-04-30T19:06:26.607239 #8792] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1
 D, [2011-04-30T19:08:55.998599 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'right im just going to pop paily into a git repo and move it onto my vm' LIMIT 1[0m
+D, [2011-04-30T19:58:59.991787 #10595] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T19:59:00.026646 #10595] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
+D, [2011-04-30T20:00:41.793569 #10763] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T20:00:41.833224 #10763] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
+D, [2011-04-30T20:00:41.836323 #10763] DEBUG -- :   [1m[36mResponse Load (0.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%')[0m
+D, [2011-04-30T20:01:21.959803 #10796] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T20:01:22.004510 #10796] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
+D, [2011-04-30T20:01:22.008080 #10796] DEBUG -- :   [1m[36mResponse Load (1.0ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%')[0m
+D, [2011-04-30T20:04:05.827376 #10901] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T20:04:05.870732 #10901] DEBUG -- :   [1m[35mResponse Load (2.0ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
+D, [2011-04-30T20:04:05.879884 #10901] DEBUG -- :   [1m[36mResponse Load (0.9ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%%%')[0m
+D, [2011-04-30T20:10:58.835313 #10919] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T20:10:58.875637 #10919] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'yeah' LIMIT 1
+D, [2011-04-30T20:10:58.879486 #10919] DEBUG -- :   [1m[36mResponse Load (1.0ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '%%%' LIMIT 1[0m
+D, [2011-04-30T20:11:01.240330 #10919] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
+D, [2011-04-30T20:11:01.244531 #10919] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '%%%' LIMIT 1[0m
+D, [2011-04-30T20:32:36.055664 #11310] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T20:32:36.090967 #11310] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily-dev: learn http://++ <reply> not another link!' LIMIT 1
+D, [2011-04-30T20:32:36.093905 #11310] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-04-30T20:32:51.723997 #11310] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn http://++ <reply> not another link!' LIMIT 1
+D, [2011-04-30T20:32:51.726991 #11310] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-04-30T20:32:51.746464 #11310] DEBUG -- :   [1m[35mAREL (1.5ms)[0m  INSERT INTO "responses" ("input", "output") VALUES ('http://++', 'not another link!')
+D, [2011-04-30T20:33:01.623874 #11310] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1[0m
+D, [2011-04-30T20:33:01.626514 #11310] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')
+D, [2011-04-30T20:39:55.118648 #11320] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T20:39:55.155963 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'test' LIMIT 1
+D, [2011-04-30T20:39:55.159269 #11320] DEBUG -- :   [1m[36mResponse Load (0.7ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-04-30T20:40:01.172441 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
+D, [2011-04-30T20:40:01.176565 #11320] DEBUG -- :   [1m[36mResponse Load (1.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-04-30T21:06:28.363935 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily learn who am i <reply> you are +nick+ apprently' LIMIT 1
+D, [2011-04-30T21:06:28.366010 #11320] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-04-30T21:06:33.896281 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn who am i <reply> you are +nick+ apprently' LIMIT 1
+D, [2011-04-30T21:06:33.899081 #11320] DEBUG -- :   [1m[36mResponse Load (0.7ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-04-30T21:06:33.912670 #11320] DEBUG -- :   [1m[35mAREL (6.4ms)[0m  INSERT INTO "responses" ("input", "output") VALUES ('who am i', 'you are +nick+ apprently')
+D, [2011-04-30T21:06:38.583995 #11320] DEBUG -- :   [1m[36mResponse Load (0.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'who am i' LIMIT 1[0m
+D, [2011-04-30T21:07:00.914839 #11643] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+D, [2011-04-30T21:07:00.963582 #11643] DEBUG -- :   [1m[35mResponse Load (0.8ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'who am i' LIMIT 1

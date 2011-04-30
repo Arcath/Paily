@@ -2174,3 +2174,1243 @@ I, [2011-04-30T19:07:15.182400 #8792]  INFO -- : Recieved: PING :sendak.freenode
 I, [2011-04-30T19:07:15.183065 #8792]  INFO -- : Sending: PONG arcath.net
 I, [2011-04-30T19:08:55.994420 #8792]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #whitefall :right im just going to pop paily into a git repo and move it onto my vm
 
+I, [2011-04-30T19:57:19.097454 #10592]  INFO -- : Creating Bot
+I, [2011-04-30T19:57:19.098162 #10592]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T19:57:19.098678 #10592]  INFO -- : Creating Connection
+I, [2011-04-30T19:57:19.366126 #10592]  INFO -- : Sending Identification
+I, [2011-04-30T19:57:19.366726 #10592]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T19:57:19.367349 #10592]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T19:57:19.367865 #10592]  INFO -- : Getting Response
+I, [2011-04-30T19:57:19.446108 #10592]  INFO -- : Received: :leguin.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T19:57:19.530016 #10592]  INFO -- : Received: :leguin.freenode.net NOTICE * :*** Checking Ident
+:leguin.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T19:57:19.690015 #10592]  INFO -- : Received: :leguin.freenode.net NOTICE * :*** Found your hostname
+
+I, [2011-04-30T19:57:19.694306 #10592]  INFO -- : Setting nickname variable
+I, [2011-04-30T19:57:19.694832 #10592]  INFO -- : Created new responder
+I, [2011-04-30T19:57:19.695149 #10592]  INFO -- : Created new responder
+I, [2011-04-30T19:57:19.695596 #10592]  INFO -- : Joining Channels
+I, [2011-04-30T19:57:19.696099 #10592]  INFO -- : Joining #pailytest
+I, [2011-04-30T19:57:19.696615 #10592]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T19:57:19.697270 #10592]  INFO -- : Recieved:  supported by this server
+:leguin.freenode.net 251 Paily-dev :There are 350 users and 62522 invisible on 29 servers
+:leguin.freenode.net 252 Paily-dev 30 :IRC Operators online
+:leguin.freenode.net 253 Paily-dev 7 :unknown connection(s)
+:leguin.freenode.net 254 Paily-dev 39126 :channels formed
+:leguin.freenode.net 255 Paily-dev :I have 5023 clients and 1 servers
+:legui
+I, [2011-04-30T19:57:19.770381 #10592]  INFO -- : Recieved: n.freenode.net 265 Paily-dev 5023 8055 :Current local users 5023, max 8055
+:leguin.freenode.net 266 Paily-dev 62872 74012 :Current global users 62872, max 74012
+:leguin.freenode.net 250 Paily-dev :Highest connection count: 8056 (8055 clients) (1514343 connections received)
+:leguin.freenode.net 375 Paily-dev :- leguin.freenode.net Message of the Day - 
+:leguin.freenode.net 372 Paily-dev :- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+:leguin.freenode.net 372 Paily-dev :- the Academic Co
+I, [2011-04-30T19:57:19.771056 #10592]  INFO -- : Recieved: mputer Club at Umeå University for sponsoring
+:leguin.freenode.net 372 Paily-dev :- this server!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- URSULA K. LEGUIN (1929-)  The author of the Earthsea
+:leguin.freenode.net 372 Paily-dev :- trilogy, City of Illusions and The Dispossessed.
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:leguin.freenode.net 372 Paily-dev :- Center Lt
+I, [2011-04-30T19:57:19.771669 #10592]  INFO -- : Recieved: d (http://freenode.net/pdpc.shtml).
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:leguin.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:leguin.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:leguin.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.
+I, [2011-04-30T19:57:19.772248 #10592]  INFO -- : Recieved: freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:leguin.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:leguin.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:leguin.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:leguin.freenode.net 372 Paily-dev :- support.
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Pai
+I, [2011-04-30T19:57:19.772716 #10592]  INFO -- : Recieved: ly-dev :- By connecting to freenode you indicate that you have read
+:leguin.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:leguin.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:leguin.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:leguin.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:leguin.freenode.net 372 Paily-dev :- take place where t
+I, [2011-04-30T19:57:19.773183 #10592]  INFO -- : Recieved: he channel owner(s) has requested this
+:leguin.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:leguin.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:leguin.fr
+I, [2011-04-30T19:57:19.774243 #10592]  INFO -- : Recieved: eenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:leguin.freenode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+:leguin.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:leguin.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:leguin.freenode.n
+I, [2011-04-30T19:57:19.774769 #10592]  INFO -- : Recieved: et 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:leguin.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:leguin.freenode.net 372 Paily-dev :- freenode network policy, please take a look at our policy
+:leguin.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:leguin.freenode.net 372 Paily-dev :- the network!
+:leguin.freenode.net 372 Paily-dev :-  
+:le
+I, [2011-04-30T19:57:19.775267 #10592]  INFO -- : Recieved: guin.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:leguin.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:leguin.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:leguin.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, m
+I, [2011-04-30T19:57:19.778238 #10592]  INFO -- : Recieved: ore info at 
+:leguin.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:leguin.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:leguin.freenode.net 372 Paily-dev :- you may do so o
+I, [2011-04-30T19:57:19.778672 #10592]  INFO -- : Recieved: ver at http://freenode.net/pdpc_donations.shtml
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- ***************************************************************
+:leguin.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:leguin.freenode.net 372 Paily-dev :- ***************************************************************
+:le
+I, [2011-04-30T19:57:19.779073 #10592]  INFO -- : Recieved: guin.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T19:57:23.050179 #10592]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T19:57:23.166235 #10592]  INFO -- : Recieved: :leguin.freenode.net 353 Paily-dev @ #pailytest :Paily-dev @Arcath
+:leguin.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T19:58:47.345630 #10595]  INFO -- : Creating Bot
+I, [2011-04-30T19:58:47.346115 #10595]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T19:58:47.346404 #10595]  INFO -- : Creating Connection
+I, [2011-04-30T19:58:47.497750 #10595]  INFO -- : Sending Identification
+I, [2011-04-30T19:58:47.498175 #10595]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T19:58:47.498601 #10595]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T19:58:47.498998 #10595]  INFO -- : Getting Response
+I, [2011-04-30T19:58:47.577744 #10595]  INFO -- : Received: :leguin.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T19:58:47.657688 #10595]  INFO -- : Received: :leguin.freenode.net NOTICE * :*** Checking Ident
+:leguin.freenode.net NOTICE * :*** Found your hostname
+:leguin.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T19:58:47.661988 #10595]  INFO -- : Setting nickname variable
+I, [2011-04-30T19:58:47.662413 #10595]  INFO -- : Created new responder
+I, [2011-04-30T19:58:47.662692 #10595]  INFO -- : Created new responder
+I, [2011-04-30T19:58:47.662988 #10595]  INFO -- : Joining Channels
+I, [2011-04-30T19:58:47.663263 #10595]  INFO -- : Joining #pailytest
+I, [2011-04-30T19:58:47.663651 #10595]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T19:58:47.664208 #10595]  INFO -- : Recieved:  supported by this server
+:leguin.freenode.net 251 Paily-dev :There are 351 users and 62512 invisible on 29 servers
+:leguin.freenode.net 252 Paily-dev 30 :IRC Operators online
+:leguin.freenode.net 253 Paily-dev 7 :unknown connection(s)
+:leguin.freenode.net 254 Paily-dev 39123 :channels formed
+:leguin.freenode.net 255 Paily-dev :I have 5026 clients and 1 servers
+:legui
+I, [2011-04-30T19:58:47.746069 #10595]  INFO -- : Recieved: n.freenode.net 265 Paily-dev 5026 8055 :Current local users 5026, max 8055
+:leguin.freenode.net 266 Paily-dev 62863 74012 :Current global users 62863, max 74012
+:leguin.freenode.net 250 Paily-dev :Highest connection count: 8056 (8055 clients) (1514349 connections received)
+:leguin.freenode.net 375 Paily-dev :- leguin.freenode.net Message of the Day - 
+:leguin.freenode.net 372 Paily-dev :- Welcome to leguin.freenode.net in Umeå, Sweden, EU! Thanks to
+:leguin.freenode.net 372 Paily-dev :- the Academic Co
+I, [2011-04-30T19:58:47.746697 #10595]  INFO -- : Recieved: mputer Club at Umeå University for sponsoring
+:leguin.freenode.net 372 Paily-dev :- this server!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- URSULA K. LEGUIN (1929-)  The author of the Earthsea
+:leguin.freenode.net 372 Paily-dev :- trilogy, City of Illusions and The Dispossessed.
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:leguin.freenode.net 372 Paily-dev :- Center Lt
+I, [2011-04-30T19:58:47.747280 #10595]  INFO -- : Recieved: d (http://freenode.net/pdpc.shtml).
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:leguin.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:leguin.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:leguin.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.
+I, [2011-04-30T19:58:47.747677 #10595]  INFO -- : Recieved: freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:leguin.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:leguin.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:leguin.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:leguin.freenode.net 372 Paily-dev :- support.
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Pai
+I, [2011-04-30T19:58:47.747981 #10595]  INFO -- : Recieved: ly-dev :- By connecting to freenode you indicate that you have read
+:leguin.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:leguin.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:leguin.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:leguin.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:leguin.freenode.net 372 Paily-dev :- take place where t
+I, [2011-04-30T19:58:47.748268 #10595]  INFO -- : Recieved: he channel owner(s) has requested this
+:leguin.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:leguin.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:leguin.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:leguin.freenode.net 372 Paily-dev :- are 13 years
+I, [2011-04-30T19:58:47.748547 #10595]  INFO -- : Recieved:  of age, or older. For more information about the
+:leguin.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:leguin.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:leguin.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:leguin.freenode.net 372 Paily-dev :- freenode networ
+I, [2011-04-30T19:58:47.748824 #10595]  INFO -- : Recieved: k policy, please take a look at our policy
+:leguin.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:leguin.freenode.net 372 Paily-dev :- the network!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:leguin.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:leguin.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repe
+I, [2011-04-30T19:58:47.749105 #10595]  INFO -- : Recieved: at last years 
+:leguin.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, m
+I, [2011-04-30T19:58:47.829895 #10595]  INFO -- : Recieved: ore info at 
+:leguin.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:leguin.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:leguin.freenode.net 372 Paily-dev :- you may do so o
+I, [2011-04-30T19:58:47.830340 #10595]  INFO -- : Recieved: ver at http://freenode.net/pdpc_donations.shtml
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:leguin.freenode.net 372 Paily-dev :-  
+:leguin.freenode.net 372 Paily-dev :- ***************************************************************
+:leguin.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:leguin.freenode.net 372 Paily-dev :- ***************************************************************
+:le
+I, [2011-04-30T19:58:47.830677 #10595]  INFO -- : Recieved: guin.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T19:58:51.045866 #10595]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T19:58:51.125890 #10595]  INFO -- : Recieved: :leguin.freenode.net 353 Paily-dev @ #pailytest :Paily-dev @Arcath
+:leguin.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T19:58:59.538208 #10595]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:00:34.154393 #10763]  INFO -- : Creating Bot
+I, [2011-04-30T20:00:34.155127 #10763]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:00:34.155566 #10763]  INFO -- : Creating Connection
+I, [2011-04-30T20:00:34.582355 #10763]  INFO -- : Sending Identification
+I, [2011-04-30T20:00:34.582986 #10763]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:00:34.583769 #10763]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:00:34.584392 #10763]  INFO -- : Getting Response
+I, [2011-04-30T20:00:34.726284 #10763]  INFO -- : Received: :asimov.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:00:34.870196 #10763]  INFO -- : Received: :asimov.freenode.net NOTICE * :*** Checking Ident
+:asimov.freenode.net NOTICE * :*** Found your hostname
+
+I, [2011-04-30T20:00:34.878529 #10763]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:00:34.879147 #10763]  INFO -- : Created new responder
+I, [2011-04-30T20:00:34.879592 #10763]  INFO -- : Created new responder
+I, [2011-04-30T20:00:34.879981 #10763]  INFO -- : Joining Channels
+I, [2011-04-30T20:00:34.880384 #10763]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:00:34.880785 #10763]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:00:34.881372 #10763]  INFO -- : Recieved: ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+:asimov.freenode.net 251 Paily-dev :There are 350 users and 62491 invisible on 29 servers
+:asimov.freenode.net 252 Paily-dev 30 :IRC Operators online
+:asimov.freenode.net 253 Paily-dev 6 :unknown connection(s)
+:asimov.freenode.net 254 Paily-dev 39115 :channels formed
+:asimov.freenode.net 255
+I, [2011-04-30T20:00:34.882557 #10763]  INFO -- : Recieved:  Paily-dev :I have 6715 clients and 1 servers
+:asimov.freenode.net 265 Paily-dev 6715 8118 :Current local users 6715, max 8118
+:asimov.freenode.net 266 Paily-dev 62841 71615 :Current global users 62841, max 71615
+:asimov.freenode.net 250 Paily-dev :Highest connection count: 8119 (8118 clients) (320318 connections received)
+:asimov.freenode.net 375 Paily-dev :- asimov.freenode.net Message of the Day - 
+:asimov.freenode.net 372 Paily-dev :- Welcome to asimov.freenode.net in TX, USA!  Thanks to
+:asimov.f
+I, [2011-04-30T20:00:34.883038 #10763]  INFO -- : Recieved: reenode.net 372 Paily-dev :- Rackspace (www.rackspace.com) for sponsoring
+:asimov.freenode.net 372 Paily-dev :- this server!
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- ASIMOV, ISAAC [1920-1992].  One of the brightest stars of the
+:asimov.freenode.net 372 Paily-dev :- science fiction universe.  Author of I Robot, the
+:asimov.freenode.net 372 Paily-dev :- Foundation series (which "grew like Topsy"), Pebble in the
+:asimov.freenode.net 372 Paily-dev :- Sky and hu
+I, [2011-04-30T20:00:34.883354 #10763]  INFO -- : Recieved: ndreds of works of science fact and science
+:asimov.freenode.net 372 Paily-dev :- fiction.
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:asimov.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:asimov.freenode.net 372 Paily-dev :- like to invit
+I, [2011-04-30T20:00:34.883885 #10763]  INFO -- : Recieved: e all users of freenode to get involved in the fun
+:asimov.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:asimov.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:asimov.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:asimov.freenode.net 372 Paily-dev :- Pr
+I, [2011-04-30T20:00:34.884501 #10763]  INFO -- : Recieved: oject (http://gallery.menalto.com/) and our corporate sponsor 
+:asimov.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:asimov.freenode.net 372 Paily-dev :- support.
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- By connecting to freenode you indicate that you have read
+:asimov.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:asimov.freenode.net 372 Paily-dev :- the website (http://freenode.
+I, [2011-04-30T20:00:34.885127 #10763]  INFO -- : Recieved: net). We would like to remind
+:asimov.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:asimov.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:asimov.freenode.
+I, [2011-04-30T20:00:35.074795 #10763]  INFO -- : Recieved: net 372 Paily-dev :- take place where the channel owner(s) has requested this
+:asimov.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:asimov.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:asimov.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:asimov.fre
+I, [2011-04-30T20:00:35.075411 #10763]  INFO -- : Recieved: enode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+:asimov.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:asimov.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:asimov.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:asimov.freeno
+I, [2011-04-30T20:00:35.075876 #10763]  INFO -- : Recieved: de.net 372 Paily-dev :- freenode network policy, please take a look at our policy
+:asimov.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:asimov.freenode.net 372 Paily-dev :- the network!
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:asimov.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:asimov.freenode.net 372 Paily-dev :- [http://w
+I, [2011-04-30T20:00:35.076297 #10763]  INFO -- : Recieved: ww.fossevents.org], and soon we'll repeat last years 
+:asimov.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:asimov.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:asimov.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.free
+I, [2011-04-30T20:00:35.076768 #10763]  INFO -- : Recieved: node.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:asimov.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:asimov.freenode.net 372 Paily-dev :-  
+:asimov.freenode.net 372 Paily-dev :- ***************************************************************
+:asimov.freenode.net 372 Paily-dev :- Please read http://blog.free
+I, [2011-04-30T20:00:35.077211 #10763]  INFO -- : Recieved: node.net/2010/11/be-safe-out-there/
+:asimov.freenode.net 372 Paily-dev :- ***************************************************************
+:asimov.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:00:38.862318 #10763]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:00:39.046370 #10763]  INFO -- : Recieved: :asimov.freenode.net 353 Paily-dev @ #pailytest :Paily-dev @Arcath
+:asimov.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T20:00:41.266457 #10763]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:01:14.312287 #10796]  INFO -- : Creating Bot
+I, [2011-04-30T20:01:14.312962 #10796]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:01:14.313439 #10796]  INFO -- : Creating Connection
+I, [2011-04-30T20:01:14.431968 #10796]  INFO -- : Sending Identification
+I, [2011-04-30T20:01:14.432496 #10796]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:01:14.432979 #10796]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:01:14.433401 #10796]  INFO -- : Getting Response
+I, [2011-04-30T20:01:14.483934 #10796]  INFO -- : Received: :barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:01:14.535856 #10796]  INFO -- : Received: :barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** Found your hostname
+:barjavel.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T20:01:14.540107 #10796]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:01:14.540691 #10796]  INFO -- : Created new responder
+I, [2011-04-30T20:01:14.541133 #10796]  INFO -- : Created new responder
+I, [2011-04-30T20:01:14.541550 #10796]  INFO -- : Joining Channels
+I, [2011-04-30T20:01:14.542016 #10796]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:01:14.542448 #10796]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:01:14.543131 #10796]  INFO -- : Recieved: ENTVER=3.0 :are supported by this server
+:barjavel.freenode.net 251 Paily-dev :There are 350 users and 62498 invisible on 29 servers
+:barjavel.freenode.net 252 Paily-dev 30 :IRC Operators online
+:barjavel.freenode.net 253 Paily-dev 4 :unknown connection(s)
+:barjavel.freenode.net 254 Paily-dev 39113 :channels formed
+:barjavel.freenode.net 255 Paily-dev :I have 3855 clie
+I, [2011-04-30T20:01:14.592116 #10796]  INFO -- : Recieved: nts and 1 servers
+:barjavel.freenode.net 265 Paily-dev 3855 10333 :Current local users 3855, max 10333
+:barjavel.freenode.net 266 Paily-dev 62848 74011 :Current global users 62848, max 74011
+:barjavel.freenode.net 250 Paily-dev :Highest connection count: 10334 (10333 clients) (4431081 connections received)
+:barjavel.freenode.net 375 Paily-dev :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 Paily-dev :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net
+I, [2011-04-30T20:01:14.592684 #10796]  INFO -- : Recieved:  372 Paily-dev :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 Paily-dev :- this server!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 Paily-dev :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 Paily-dev :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 Paily-dev :- the Grand
+I, [2011-04-30T20:01:14.593181 #10796]  INFO -- : Recieved: father Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 Paily-dev :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:barjavel.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:barjavel.freenode.net 372 Pa
+I, [2011-04-30T20:01:14.596184 #10796]  INFO -- : Recieved: ily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:barjavel.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:barjavel.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:barjavel.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- On the subject of fund
+I, [2011-04-30T20:01:14.596781 #10796]  INFO -- : Recieved: raisers, we'd like to thank our donors, 
+:barjavel.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:barjavel.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:barjavel.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:barjavel.freenode.net 372 Paily-dev :- support.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- By connecting to freenode you 
+I, [2011-04-30T20:01:14.597297 #10796]  INFO -- : Recieved: indicate that you have read
+:barjavel.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:barjavel.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:barjavel.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:barjavel.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:barjavel.freenode.net 372 Paily-dev :- take place where the channel owner(s) has reques
+I, [2011-04-30T20:01:14.597884 #10796]  INFO -- : Recieved: ted this
+:barjavel.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:barjavel.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:barjavel.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:barjavel.freenode.net 372 Paily-dev :- are 13 years of age, or older.
+I, [2011-04-30T20:01:14.598483 #10796]  INFO -- : Recieved:  For more information about the
+:barjavel.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:barjavel.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:barjavel.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:barjavel.freenode.net 372 Paily-dev :- freenode network poli
+I, [2011-04-30T20:01:14.599136 #10796]  INFO -- : Recieved: cy, please take a look at our policy
+:barjavel.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:barjavel.freenode.net 372 Paily-dev :- the network!
+:barjavel.freenode.net 372 Paily-dev :-  
+:ba
+I, [2011-04-30T20:01:14.652115 #10796]  INFO -- : Recieved: rjavel.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:barjavel.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:barjavel.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:barjavel.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:barjavel.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel
+I, [2011-04-30T20:01:14.652700 #10796]  INFO -- : Recieved: .freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:barjavel.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:barjavel.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net
+I, [2011-04-30T20:01:14.653142 #10796]  INFO -- : Recieved:  372 Paily-dev :- Thank you for using freenode!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- ***************************************************************
+:barjavel.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:barjavel.freenode.net 372 Paily-dev :- ***************************************************************
+:barjavel.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:01:18.100049 #10796]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:01:18.152040 #10796]  INFO -- : Recieved: :barjavel.freenode.net 353 Paily-dev @ #pailytest :Paily-dev @Arcath
+:barjavel.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T20:01:21.460132 #10796]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:03:34.013746 #10796]  INFO -- : Recieved: PING :barjavel.freenode.net
+
+I, [2011-04-30T20:03:34.014483 #10796]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:03:58.647496 #10901]  INFO -- : Creating Bot
+I, [2011-04-30T20:03:58.647983 #10901]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:03:58.648269 #10901]  INFO -- : Creating Connection
+I, [2011-04-30T20:03:58.914864 #10901]  INFO -- : Sending Identification
+I, [2011-04-30T20:03:58.915285 #10901]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:03:58.915703 #10901]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:03:58.916010 #10901]  INFO -- : Getting Response
+I, [2011-04-30T20:03:59.098876 #10901]  INFO -- : Received: :zelazny.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:03:59.282780 #10901]  INFO -- : Received: :zelazny.freenode.net NOTICE * :*** Checking Ident
+:zelazny.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T20:03:59.898902 #10901]  INFO -- : Received: :zelazny.freenode.net NOTICE * :*** Found your hostname
+
+I, [2011-04-30T20:03:59.899573 #10901]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:03:59.899947 #10901]  INFO -- : Created new responder
+I, [2011-04-30T20:03:59.900288 #10901]  INFO -- : Created new responder
+I, [2011-04-30T20:03:59.900605 #10901]  INFO -- : Joining Channels
+I, [2011-04-30T20:03:59.900938 #10901]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:03:59.901299 #10901]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:03:59.901874 #10901]  INFO -- : Recieved: =3.0 :are supported by this server
+:zelazny.freenode.net 251 Paily-dev :There are 350 users and 62505 invisible on 29 servers
+:zelazny.freenode.net 252 Paily-dev 30 :IRC Operators online
+:zelazny.freenode.net 254 Paily-dev 39108 :channels formed
+:zelazny.freenode.net 255 Paily-dev :I have 4098 clients and 1 servers
+:zelazny.freenode.net 265 Paily-dev 4098 5748 :Current local users 4098, max 5748
+:zelazny.freenode.net 266 Paily-dev 62855 72582 :Current global users 62855, max 72582
+:zelazny.freenode.n
+I, [2011-04-30T20:03:59.902340 #10901]  INFO -- : Recieved: et 250 Paily-dev :Highest connection count: 5749 (5748 clients) (456800 connections received)
+:zelazny.freenode.net 375 Paily-dev :- zelazny.freenode.net Message of the Day - 
+:zelazny.freenode.net 372 Paily-dev :- Welcome to zelazny.freenode.net in Corvallis, Oregon, US. 
+:zelazny.freenode.net 372 Paily-dev :- Our thanks to Oregon State University for sponsoring this
+:zelazny.freenode.net 372 Paily-dev :- server!
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- ZELAZNY,
+I, [2011-04-30T20:03:59.902777 #10901]  INFO -- : Recieved:  ROGER JOSEPH [1937-1995].  Roger Zelazny was a
+:zelazny.freenode.net 372 Paily-dev :- leading light in the New Wave of science fiction.  He began
+:zelazny.freenode.net 372 Paily-dev :- writing in 1962.  Known for such works as This Immortal,
+:zelazny.freenode.net 372 Paily-dev :- Lord of Light, The Dream Master and the Amber books,
+:zelazny.freenode.net 372 Paily-dev :- Zelazny is best known for his idiomatic American
+:zelazny.freenode.net 372 Paily-dev :- protagonists, embodying the mythologi
+I, [2011-04-30T20:03:59.903227 #10901]  INFO -- : Recieved: cal figures of the
+:zelazny.freenode.net 372 Paily-dev :- Trickster and the Hero of a Thousand Faces.
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Proje
+I, [2011-04-30T20:04:00.087191 #10901]  INFO -- : Recieved: cts
+:zelazny.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:zelazny.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:zelazny.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:zelazny.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml fo
+I, [2011-04-30T20:04:00.087824 #10901]  INFO -- : Recieved: r more!
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:zelazny.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:zelazny.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:zelazny.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:zelazny.freenode.net 372 Paily-dev :- support.
+:zela
+I, [2011-04-30T20:04:00.088284 #10901]  INFO -- : Recieved: zny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- By connecting to freenode you indicate that you have read
+:zelazny.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:zelazny.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:zelazny.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:zelazny.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging
+I, [2011-04-30T20:04:00.088687 #10901]  INFO -- : Recieved:  should only
+:zelazny.freenode.net 372 Paily-dev :- take place where the channel owner(s) has requested this
+:zelazny.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:zelazny.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:zelazny.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- By registering your nickname with Nic
+I, [2011-04-30T20:04:00.089080 #10901]  INFO -- : Recieved: kserv you agree that you
+:zelazny.freenode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+:zelazny.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:zelazny.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:zelazny.freenode.net 372 Paily-dev :- indicates your acceptance of 
+I, [2011-04-30T20:04:00.089529 #10901]  INFO -- : Recieved: this policy. For details on
+:zelazny.freenode.net 372 Paily-dev :- freenode network policy, please take a look at our policy
+:zelazny.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:zelazny.fre
+I, [2011-04-30T20:04:00.091163 #10901]  INFO -- : Recieved: enode.net 372 Paily-dev :- the network!
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:zelazny.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:zelazny.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:zelazny.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:zelazny.freenode.net 372 Paily-
+I, [2011-04-30T20:04:00.091713 #10901]  INFO -- : Recieved: dev :- [http://geeknic.org]
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:zelazny.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:zelazny.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donatio
+I, [2011-04-30T20:04:00.092132 #10901]  INFO -- : Recieved: ns.shtml
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:zelazny.freenode.net 372 Paily-dev :-  
+:zelazny.freenode.net 372 Paily-dev :- ***************************************************************
+:zelazny.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:zelazny.freenode.net 372 Paily-dev :- ***************************************************************
+:zelazny.freenode.net 376 Paily-dev 
+I, [2011-04-30T20:04:00.092541 #10901]  INFO -- : Recieved: :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:04:03.126918 #10901]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:04:03.350961 #10901]  INFO -- : Recieved: :zelazny.freenode.net 353 Paily-dev @ #pailytest :Paily-dev @Arcath
+:zelazny.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T20:04:05.327053 #10901]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:06:03.116334 #10901]  INFO -- : Recieved: PING :zelazny.freenode.net
+
+I, [2011-04-30T20:06:03.117048 #10901]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:08:15.097806 #10901]  INFO -- : Recieved: PING :zelazny.freenode.net
+
+I, [2011-04-30T20:08:15.098426 #10901]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:10:50.176922 #10919]  INFO -- : Creating Bot
+I, [2011-04-30T20:10:50.177575 #10919]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:10:50.177979 #10919]  INFO -- : Creating Connection
+I, [2011-04-30T20:10:50.324212 #10919]  INFO -- : Sending Identification
+I, [2011-04-30T20:10:50.324639 #10919]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:10:50.325029 #10919]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:10:50.325332 #10919]  INFO -- : Getting Response
+I, [2011-04-30T20:10:50.395961 #10919]  INFO -- : Received: :lindbohm.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:10:50.467992 #10919]  INFO -- : Received: :lindbohm.freenode.net NOTICE * :*** Checking Ident
+:lindbohm.freenode.net NOTICE * :*** Found your hostname
+:lindbohm.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T20:10:50.539977 #10919]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:10:50.540599 #10919]  INFO -- : Created new responder
+I, [2011-04-30T20:10:50.541092 #10919]  INFO -- : Created new responder
+I, [2011-04-30T20:10:50.541383 #10919]  INFO -- : Joining Channels
+I, [2011-04-30T20:10:50.541698 #10919]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:10:50.541969 #10919]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:10:50.542342 #10919]  INFO -- : Recieved:  NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:lindbohm.freenode.net 005 Paily-dev SAFELIST ELIST=U CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 :are supported by this server
+:lindbohm.freenode.net 005 Paily-dev FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,arx WHOX CLIENTVER=3.0 :are supported by this server
+:lindbohm.freenode.net 251 Paily-dev :There are 349 use
+I, [2011-04-30T20:10:50.542656 #10919]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:10:50.542976 #10919]  INFO -- : Recieved: rs and 62496 invisible on 29 servers
+:lindbohm.freenode.net 252 Paily-dev 30 :IRC Operators online
+:lindbohm.freenode.net 253 Paily-dev 1 :unknown connection(s)
+:lindbohm.freenode.net 254 Paily-dev 39095 :channels formed
+:lindbohm.freenode.net 255 Paily-dev :I have 2210 clients and 1 servers
+:lindbohm.freenode.net 265 Paily-dev 2210 6441 :Current local users 2210, max 
+I, [2011-04-30T20:10:50.612229 #10919]  INFO -- : Recieved: 6441
+:lindbohm.freenode.net 266 Paily-dev 62845 72223 :Current global users 62845, max 72223
+:lindbohm.freenode.net 250 Paily-dev :Highest connection count: 6442 (6441 clients) (598490 connections received)
+:lindbohm.freenode.net 375 Paily-dev :- lindbohm.freenode.net Message of the Day - 
+:lindbohm.freenode.net 372 Paily-dev :- Welcome to lindbohm.freenode.net in Stockholm, Sweden, EU! Thanks to
+:lindbohm.freenode.net 372 Paily-dev :- Stockholm University (http://www.su.se) for sponsoring
+:lindbohm.f
+I, [2011-04-30T20:10:50.612677 #10919]  INFO -- : Recieved: reenode.net 372 Paily-dev :- this server!
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- Dénis Lindbohm (1927-2005) was a Swedish author and one of the 
+:lindbohm.freenode.net 372 Paily-dev :- founders of Swedish science fiction.
+:lindbohm.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:lindbohm.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.free
+I, [2011-04-30T20:10:50.612977 #10919]  INFO -- : Recieved: node.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:lindbohm.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:lindbohm.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:lindbohm.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more
+I, [2011-04-30T20:10:50.616235 #10919]  INFO -- : Recieved: !
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:lindbohm.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:lindbohm.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:lindbohm.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:lindbohm.freenode.net 372 Paily-dev :- support.
+:lind
+I, [2011-04-30T20:10:50.616838 #10919]  INFO -- : Recieved: bohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- By connecting to freenode you indicate that you have read
+:lindbohm.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:lindbohm.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:lindbohm.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:lindbohm.freenode.net 372 Paily-dev :- network is prohibited. Public channel l
+I, [2011-04-30T20:10:50.617324 #10919]  INFO -- : Recieved: ogging should only
+:lindbohm.freenode.net 372 Paily-dev :- take place where the channel owner(s) has requested this
+:lindbohm.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:lindbohm.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:lindbohm.freenode.net 372 Paily-dev :- notice in topic and perh
+I, [2011-04-30T20:10:50.688274 #10919]  INFO -- : Recieved: aps as a on-join message).
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:lindbohm.freenode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+:lindbohm.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:lindbohm.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenod
+I, [2011-04-30T20:10:50.688828 #10919]  INFO -- : Recieved: e.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:lindbohm.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:lindbohm.freenode.net 372 Paily-dev :- freenode network policy, please take a look at our policy
+:lindbohm.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:lindbohm.freenode.net 372 Paily-dev :- the network!
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Pail
+I, [2011-04-30T20:10:50.689141 #10919]  INFO -- : Recieved: y-dev :- Don't forget to check out these other Peer-Directed Projects:
+:lindbohm.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:lindbohm.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:lindbohm.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:lindb
+I, [2011-04-30T20:10:50.692109 #10919]  INFO -- : Recieved: ohm.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:lindbohm.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:lindbohm.freenode.net 372 Paily-dev :- you may do so over at
+I, [2011-04-30T20:10:50.692459 #10919]  INFO -- : Recieved:  http://freenode.net/pdpc_donations.shtml
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:lindbohm.freenode.net 372 Paily-dev :-  
+:lindbohm.freenode.net 372 Paily-dev :- ***************************************************************
+:lindbohm.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:lindbohm.freenode.net 372 Paily-dev :- **************************************************************
+I, [2011-04-30T20:10:50.692752 #10919]  INFO -- : Recieved: *
+:lindbohm.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:10:54.628124 #10919]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:10:54.700177 #10919]  INFO -- : Recieved: :lindbohm.freenode.net 353 Paily-dev @ #pailytest :Paily-dev @Arcath
+:lindbohm.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T20:10:58.320262 #10919]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :yeah
+
+I, [2011-04-30T20:11:01.236428 #10919]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:30:12.374713 #11303]  INFO -- : Creating Bot
+I, [2011-04-30T20:30:12.387681 #11303]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:30:12.388101 #11303]  INFO -- : Creating Connection
+I, [2011-04-30T20:30:12.866233 #11303]  INFO -- : Sending Identification
+I, [2011-04-30T20:30:12.866756 #11303]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:30:12.867397 #11303]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:30:12.867874 #11303]  INFO -- : Getting Response
+I, [2011-04-30T20:30:13.102897 #11303]  INFO -- : Received: :barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:30:13.346217 #11303]  INFO -- : Received: :barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** Found your hostname
+:barjavel.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T20:30:13.346883 #11303]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:30:13.347303 #11303]  INFO -- : Created new responder
+I, [2011-04-30T20:30:13.347689 #11303]  INFO -- : Created new responder
+I, [2011-04-30T20:30:13.348025 #11303]  INFO -- : Joining Channels
+I, [2011-04-30T20:30:13.348378 #11303]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:30:13.348737 #11303]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:30:13.349219 #11303]  INFO -- : Recieved: ENTVER=3.0 :are supported by this server
+:barjavel.freenode.net 251 Paily-dev :There are 349 users and 62515 invisible on 29 servers
+:barjavel.freenode.net 252 Paily-dev 30 :IRC Operators online
+:barjavel.freenode.net 253 Paily-dev 8 :unknown connection(s)
+:barjavel.freenode.net 254 Paily-dev 39111 :channels formed
+:barjavel.freenode.net 255 Paily-dev :I have 3862 clie
+I, [2011-04-30T20:30:13.602800 #11303]  INFO -- : Recieved: nts and 1 servers
+:barjavel.freenode.net 265 Paily-dev 3862 10333 :Current local users 3862, max 10333
+:barjavel.freenode.net 266 Paily-dev 62864 74011 :Current global users 62864, max 74011
+:barjavel.freenode.net 250 Paily-dev :Highest connection count: 10334 (10333 clients) (4431284 connections received)
+:barjavel.freenode.net 375 Paily-dev :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 Paily-dev :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net
+I, [2011-04-30T20:30:13.603414 #11303]  INFO -- : Recieved:  372 Paily-dev :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 Paily-dev :- this server!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 Paily-dev :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 Paily-dev :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 Paily-dev :- the Grand
+I, [2011-04-30T20:30:13.603924 #11303]  INFO -- : Recieved: father Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 Paily-dev :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:barjavel.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:barjavel.freenode.net 372 Pa
+I, [2011-04-30T20:30:13.606302 #11303]  INFO -- : Recieved: ily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:barjavel.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:barjavel.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:barjavel.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- On the subject of fund
+I, [2011-04-30T20:30:13.606874 #11303]  INFO -- : Recieved: raisers, we'd like to thank our donors, 
+:barjavel.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:barjavel.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:barjavel.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:barjavel.freenode.net 372 Paily-dev :- support.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- By connecting to freenode you 
+I, [2011-04-30T20:30:13.607346 #11303]  INFO -- : Recieved: indicate that you have read
+:barjavel.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:barjavel.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:barjavel.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:barjavel.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:barjavel.freenode.net 372 Paily-dev :- take place where the channel owner(s) has reques
+I, [2011-04-30T20:30:13.607770 #11303]  INFO -- : Recieved: ted this
+:barjavel.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:barjavel.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:barjavel.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:barjavel.freenode.net 372 Paily-dev :- are 13 years of age, or older.
+I, [2011-04-30T20:30:13.608162 #11303]  INFO -- : Recieved:  For more information about the
+:barjavel.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:barjavel.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:barjavel.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:barjavel.freenode.net 372 Paily-dev :- freenode network poli
+I, [2011-04-30T20:30:13.608541 #11303]  INFO -- : Recieved: cy, please take a look at our policy
+:barjavel.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:barjavel.freenode.net 372 Paily-dev :- the network!
+:barjavel.freenode.net 372 Paily-dev :-  
+:ba
+I, [2011-04-30T20:30:13.906461 #11303]  INFO -- : Recieved: rjavel.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:barjavel.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:barjavel.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:barjavel.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:barjavel.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel
+I, [2011-04-30T20:30:13.907064 #11303]  INFO -- : Recieved: .freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:barjavel.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:barjavel.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net
+I, [2011-04-30T20:30:13.907515 #11303]  INFO -- : Recieved:  372 Paily-dev :- Thank you for using freenode!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- ***************************************************************
+:barjavel.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:barjavel.freenode.net 372 Paily-dev :- **********************************
+I, [2011-04-30T20:30:13.910048 #11303]  INFO -- : Recieved: *****************************
+:barjavel.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:30:17.097854 #11303]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:30:17.150098 #11303]  INFO -- : Recieved: :barjavel.freenode.net MODE #pailytest +ns
+:barjavel.freenode.net 353 Paily-dev @ #pailytest :@Paily-dev
+:barjavel.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+:barjavel.freenode.net NOTICE #pailytest :[freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+
+I, [2011-04-30T20:31:04.592227 #11303]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:31:46.881684 #11310]  INFO -- : Creating Bot
+I, [2011-04-30T20:31:46.882444 #11310]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:31:46.882989 #11310]  INFO -- : Creating Connection
+I, [2011-04-30T20:31:47.482604 #11310]  INFO -- : Sending Identification
+I, [2011-04-30T20:31:47.483146 #11310]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:31:47.483782 #11310]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:31:47.484124 #11310]  INFO -- : Getting Response
+I, [2011-04-30T20:31:47.819037 #11310]  INFO -- : Received: :barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:31:48.062521 #11310]  INFO -- : Received: :barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** Found your hostname
+:barjavel.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T20:31:48.063290 #11310]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:31:48.063840 #11310]  INFO -- : Created new responder
+I, [2011-04-30T20:31:48.064278 #11310]  INFO -- : Created new responder
+I, [2011-04-30T20:31:48.064677 #11310]  INFO -- : Joining Channels
+I, [2011-04-30T20:31:48.065094 #11310]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:31:48.065509 #11310]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:31:48.066087 #11310]  INFO -- : Recieved: ENTVER=3.0 :are supported by this server
+:barjavel.freenode.net 251 Paily-dev :There are 350 users and 62523 invisible on 29 servers
+:barjavel.freenode.net 252 Paily-dev 30 :IRC Operators online
+:barjavel.freenode.net 253 Paily-dev 2 :unknown connection(s)
+:barjavel.freenode.net 254 Paily-dev 39107 :channels formed
+:barjavel.freenode.net 255 Paily-dev :I have 3861 clie
+I, [2011-04-30T20:31:48.066672 #11310]  INFO -- : Recieved: nts and 1 servers
+:barjavel.freenode.net 265 Paily-dev 3861 10333 :Current local users 3861, max 10333
+:barjavel.freenode.net 266 Paily-dev 62873 74011 :Current global users 62873, max 74011
+:barjavel.freenode.net 250 Paily-dev :Highest connection count: 10334 (10333 clients) (4431295 connections received)
+:barjavel.freenode.net 375 Paily-dev :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 Paily-dev :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net
+I, [2011-04-30T20:31:48.067279 #11310]  INFO -- : Recieved:  372 Paily-dev :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 Paily-dev :- this server!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 Paily-dev :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 Paily-dev :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 Paily-dev :- the Grand
+I, [2011-04-30T20:31:48.067759 #11310]  INFO -- : Recieved: father Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 Paily-dev :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:barjavel.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:barjavel.freenode.net 372 Pa
+I, [2011-04-30T20:31:48.219016 #11310]  INFO -- : Recieved: ily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:barjavel.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:barjavel.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:barjavel.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- On the subject of fund
+I, [2011-04-30T20:31:48.219626 #11310]  INFO -- : Recieved: raisers, we'd like to thank our donors, 
+:barjavel.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:barjavel.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:barjavel.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.canonical.com) for the generous 
+:barjavel.freenode.net 372 Paily-dev :- support.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- By connecting to freenode you 
+I, [2011-04-30T20:31:48.220064 #11310]  INFO -- : Recieved: indicate that you have read
+:barjavel.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:barjavel.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:barjavel.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:barjavel.freenode.net 372 Paily-dev :- network is 
+I, [2011-04-30T20:31:48.222939 #11310]  INFO -- : Recieved: prohibited. Public channel logging should only
+:barjavel.freenode.net 372 Paily-dev :- take place where the channel owner(s) has requested this
+:barjavel.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:barjavel.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:barjavel.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev 
+I, [2011-04-30T20:31:48.223513 #11310]  INFO -- : Recieved: :- By registering your nickname with Nickserv you agree that you
+:barjavel.freenode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+:barjavel.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:barjavel.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:barjavel.freenode.net 
+I, [2011-04-30T20:31:48.224013 #11310]  INFO -- : Recieved: 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:barjavel.freenode.net 372 Paily-dev :- freenode network policy, please take a look at our policy
+:barjavel.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:barjavel.freenode.net 372 Paily-dev :- the network!
+:barjavel.freenode.net 372 Paily-dev :-  
+:ba
+I, [2011-04-30T20:31:48.246852 #11310]  INFO -- : Recieved: rjavel.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:barjavel.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:barjavel.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:barjavel.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:barjavel.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel
+I, [2011-04-30T20:31:48.247305 #11310]  INFO -- : Recieved: .freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:barjavel.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:barjavel.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net
+I, [2011-04-30T20:31:48.247635 #11310]  INFO -- : Recieved:  372 Paily-dev :- Thank you for using freenode!
+:barjavel.freenode.net 372 Paily-dev :-  
+:barjavel.freenode.net 372 Paily-dev :- ***************************************************************
+:barjavel.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:barjavel.freenode.net 372 Paily-dev :- **********************************
+I, [2011-04-30T20:31:48.250375 #11310]  INFO -- : Recieved: *****************************
+:barjavel.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:31:51.070841 #11310]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:31:51.178680 #11310]  INFO -- : Recieved: :barjavel.freenode.net 353 Paily-dev @ #pailytest :Paily-dev Arcath
+:barjavel.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T20:32:35.624675 #11310]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :Paily-dev: learn http://++ <reply> not another link!
+
+I, [2011-04-30T20:32:51.720355 #11310]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :Paily: learn http://++ <reply> not another link!
+
+I, [2011-04-30T20:32:51.913017 #11310]  INFO -- : Sending: PRIVMSG #pailytest :Added
+I, [2011-04-30T20:33:01.620184 #11310]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:38:24.527924 #11320]  INFO -- : Creating Bot
+I, [2011-04-30T20:38:24.528549 #11320]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T20:38:24.528995 #11320]  INFO -- : Creating Connection
+I, [2011-04-30T20:38:28.019641 #11320]  INFO -- : Sending Identification
+I, [2011-04-30T20:38:28.020206 #11320]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T20:38:28.020838 #11320]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T20:38:28.021371 #11320]  INFO -- : Getting Response
+I, [2011-04-30T20:38:28.076026 #11320]  INFO -- : Received: :kornbluth.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T20:38:28.135703 #11320]  INFO -- : Received: :kornbluth.freenode.net NOTICE * :*** Checking Ident
+:kornbluth.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T20:38:28.247592 #11320]  INFO -- : Received: :kornbluth.freenode.net NOTICE * :*** Found your hostname
+
+I, [2011-04-30T20:38:28.248129 #11320]  INFO -- : Setting nickname variable
+I, [2011-04-30T20:38:28.248432 #11320]  INFO -- : Created new responder
+I, [2011-04-30T20:38:28.248709 #11320]  INFO -- : Created new responder
+I, [2011-04-30T20:38:28.248966 #11320]  INFO -- : Joining Channels
+I, [2011-04-30T20:38:28.249245 #11320]  INFO -- : Joining #pailytest
+I, [2011-04-30T20:38:28.249520 #11320]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T20:38:28.249899 #11320]  INFO -- : Recieved:  WHOX CLIENTVER=3.0 :are supported by this server
+:kornbluth.freenode.net 251 Paily-dev :There are 349 users and 62527 invisible on 29 servers
+:kornbluth.freenode.net 252 Paily-dev 30 :IRC Operators online
+:kornbluth.freenode.net 253 Paily-dev 4 :unknown connection(s)
+:kornbluth.freenode.net 254 Paily-dev 39097 :channels formed
+:kornbluth.freenode.net 255 Paily-dev :I 
+I, [2011-04-30T20:38:28.300055 #11320]  INFO -- : Recieved: have 5094 clients and 1 servers
+:kornbluth.freenode.net 265 Paily-dev 5094 8146 :Current local users 5094, max 8146
+:kornbluth.freenode.net 266 Paily-dev 62876 73197 :Current global users 62876, max 73197
+:kornbluth.freenode.net 250 Paily-dev :Highest connection count: 8147 (8146 clients) (3858082 connections received)
+:kornbluth.freenode.net 375 Paily-dev :- kornbluth.freenode.net Message of the Day - 
+:kornbluth.freenode.net 372 Paily-dev :- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU. 
+:
+I, [2011-04-30T20:38:28.300505 #11320]  INFO -- : Recieved: kornbluth.freenode.net 372 Paily-dev :- Thanks to Probe Networks (www.probe-networks.de) for
+:kornbluth.freenode.net 372 Paily-dev :- sponsoring this server!
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+:kornbluth.freenode.net 372 Paily-dev :- an active member of the Futurians, Cyril Kornbluth sold his
+:kornbluth.freenode.net 372 Paily-dev :- first story professionally at age 15.  By the 1940's his
+:korn
+I, [2011-04-30T20:38:28.300857 #11320]  INFO -- : Recieved: bluth.freenode.net 372 Paily-dev :- stories appeared widely under several pennames, including
+:kornbluth.freenode.net 372 Paily-dev :- S.D. Gottesman and Cecil Corman.  He left his university
+:kornbluth.freenode.net 372 Paily-dev :- studies in Chicago to serve in the Army in Europe during
+:kornbluth.freenode.net 372 Paily-dev :- WWII, then returned to school and work in 
+I, [2011-04-30T20:38:28.303857 #11320]  INFO -- : Recieved: Chicago until he
+:kornbluth.freenode.net 372 Paily-dev :- began writing full-time in 1951.  The author of The Marching
+:kornbluth.freenode.net 372 Paily-dev :- Morons and the novels The Space Merchants (with Frederik
+:kornbluth.freenode.net 372 Paily-dev :- Pohl) and The Syndic, he's best known for his biting social
+:kornbluth.freenode.net 372 Paily-dev :- satire and his collaborations with Pohl and with Judith
+:kornbluth.freenode.net 372 Paily-dev :- Merril.
+:kornbluth.freenode.net 372 Paily-
+I, [2011-04-30T20:38:28.304297 #11320]  INFO -- : Recieved: dev :- You're using freenode, a service of Peer-Directed Projects
+:kornbluth.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:kornbluth.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:kornbluth.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch - see 
+:kornbluth
+I, [2011-04-30T20:38:28.304606 #11320]  INFO -- : Recieved: .freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:kornbluth.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:kornbluth.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:kornbluth.freenode.net 372 Paily-dev :- Canonical Ltd (http://www.cano
+I, [2011-04-30T20:38:28.304904 #11320]  INFO -- : Recieved: nical.com) for the generous 
+:kornbluth.freenode.net 372 Paily-dev :- support.
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- By connecting to freenode you indicate that you have read
+:kornbluth.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:kornbluth.freenode.net 372 Paily-dev :- the website (http://freenode.net). We would like to remind
+:kornbluth.freenode.net 372 Paily-dev :- you that unauthorized public logging of chann
+I, [2011-04-30T20:38:28.305200 #11320]  INFO -- : Recieved: els on the
+:kornbluth.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:kornbluth.freenode.net 372 Paily-dev :- take place where the channel owner(s) has requested this
+:kornbluth.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:kornbluth.freenode.net 372 Paily-dev :- publically logging your channel, you may wish to keep a
+:kornbluth.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:kornbluth.f
+I, [2011-04-30T20:38:28.305492 #11320]  INFO -- : Recieved: reenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:kornbluth.freenode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+
+I, [2011-04-30T20:38:28.307886 #11320]  INFO -- : Recieved: :kornbluth.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:kornbluth.freenode.net 372 Paily-dev :- website at (http://www.coppa.org).
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:kornbluth.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:kornbluth.freenode.net 372 Paily-dev :- freenode network policy, please take a look at o
+I, [2011-04-30T20:38:28.308332 #11320]  INFO -- : Recieved: ur policy
+:kornbluth.freenode.net 372 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:kornbluth.freenode.net 372 Paily-dev :- the network!
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:kornbluth.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:kornbluth.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+I, [2011-04-30T20:38:28.308648 #11320]  INFO -- : Recieved: 
+:kornbluth.freenode.net 372 Paily-dev :- success with Picnics for Geeks across the globe, more info at 
+:kornbluth.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:kornbluth.freenode.net 372 Paily-dev :- a not for profit org
+I, [2011-04-30T20:38:28.363662 #11320]  INFO -- : Recieved: anisation registered in England and Wales.
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:kornbluth.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:kornbluth.freenode.net 372 Paily-dev :-  
+:kornbluth.freenode.net 372 Paily-dev :- *************
+I, [2011-04-30T20:38:28.364229 #11320]  INFO -- : Recieved: **************************************************
+:kornbluth.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:kornbluth.freenode.net 372 Paily-dev :- ***************************************************************
+:kornbluth.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T20:38:32.583669 #11320]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T20:38:32.875782 #11320]  INFO -- : Recieved: :kornbluth.freenode.net 353 Paily-dev @ #pailytest :Paily-dev Arcath
+:kornbluth.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T20:39:54.656273 #11320]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :test
+
+I, [2011-04-30T20:40:01.168053 #11320]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :http://www.arcath.net
+
+I, [2011-04-30T20:40:01.177538 #11320]  INFO -- : Sending: PRIVMSG #pailytest :not another link!
+I, [2011-04-30T20:42:05.027047 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:42:05.027720 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:44:41.028850 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:44:41.029441 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:47:17.042654 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:47:17.043304 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:49:53.040379 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:49:53.040950 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:52:29.030130 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:52:29.030748 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:55:05.044240 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:55:05.044805 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T20:57:41.037674 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T20:57:41.038321 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:00:17.039428 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T21:00:17.039980 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:02:53.029215 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T21:02:53.029653 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:05:29.031016 #11320]  INFO -- : Recieved: PING :kornbluth.freenode.net
+
+I, [2011-04-30T21:05:29.031623 #11320]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:06:28.360668 #11320]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :Paily learn who am i <reply> you are +nick+ apprently
+
+I, [2011-04-30T21:06:33.892471 #11320]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :Paily: learn who am i <reply> you are +nick+ apprently
+
+I, [2011-04-30T21:06:34.053394 #11320]  INFO -- : Sending: PRIVMSG #pailytest :Added
+I, [2011-04-30T21:06:38.580270 #11320]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :who am i
+
+I, [2011-04-30T21:06:38.584845 #11320]  INFO -- : Sending: PRIVMSG #pailytest :you are +nick+ apprently
+I, [2011-04-30T21:06:48.639118 #11643]  INFO -- : Creating Bot
+I, [2011-04-30T21:06:48.639881 #11643]  INFO -- : Connecting to IRC Server
+I, [2011-04-30T21:06:48.640430 #11643]  INFO -- : Creating Connection
+I, [2011-04-30T21:06:48.771951 #11643]  INFO -- : Sending Identification
+I, [2011-04-30T21:06:48.772373 #11643]  INFO -- : Sending: USER Paily-dev arcath.net bla :yaib-bot
+I, [2011-04-30T21:06:48.772768 #11643]  INFO -- : Sending: NICK Paily-dev
+I, [2011-04-30T21:06:48.773082 #11643]  INFO -- : Getting Response
+I, [2011-04-30T21:06:48.835949 #11643]  INFO -- : Received: :calvino.freenode.net NOTICE * :*** Looking up your hostname...
+
+I, [2011-04-30T21:06:48.899832 #11643]  INFO -- : Received: :calvino.freenode.net NOTICE * :*** Checking Ident
+
+I, [2011-04-30T21:06:48.999854 #11643]  INFO -- : Received: :calvino.freenode.net NOTICE * :*** No Ident response
+
+I, [2011-04-30T21:06:49.303867 #11643]  INFO -- : Received: :calvino.freenode.net NOTICE * :*** Found your hostname
+
+I, [2011-04-30T21:06:49.308113 #11643]  INFO -- : Setting nickname variable
+I, [2011-04-30T21:06:49.308468 #11643]  INFO -- : Created new responder
+I, [2011-04-30T21:06:49.308754 #11643]  INFO -- : Created new responder
+I, [2011-04-30T21:06:49.309013 #11643]  INFO -- : Joining Channels
+I, [2011-04-30T21:06:49.309287 #11643]  INFO -- : Joining #pailytest
+I, [2011-04-30T21:06:49.309587 #11643]  INFO -- : Sending: JOIN #pailytest
+I, [2011-04-30T21:06:49.310161 #11643]  INFO -- : Recieved:  :are supported by this server
+:calvino.freenode.net 251 Paily-dev :There are 346 users and 62522 invisible on 29 servers
+:calvino.freenode.net 252 Paily-dev 30 :IRC Operators online
+:calvino.freenode.net 253 Paily-dev 7 :unknown connection(s)
+:calvino.freenode.net 254 Paily-dev 39155 :channels formed
+:calvino.freenode.net 255 Paily-dev :I have 5556 clients and 3 servers
+:calvino.freenode.net 265 Paily-dev 5556 8123 :Current local users 5556, max 8123
+:calvino.freenode.net 266 Paily-dev 62868 72763 :
+I, [2011-04-30T21:06:49.310515 #11643]  INFO -- : Recieved: Current global users 62868, max 72763
+:calvino.freenode.net 250 Paily-dev :Highest connection count: 8127 (8123 clients) (599756 connections received)
+:calvino.freenode.net 375 Paily-dev :- calvino.freenode.net Message of the Day - 
+:calvino.freenode.net 372 Paily-dev :- Welcome to calvino.freenode.net in Milan, Italy! Thanks to
+:calvino.freenode.net 372 Paily-dev :- I.Net S.p.A. (www.inet.it) for sponsoring this server!
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- C
+I, [2011-04-30T21:06:49.310849 #11643]  INFO -- : Recieved: ALVINO, ITALO [1923-1985].  Born in Cuba, Italo Calvino grew
+:calvino.freenode.net 372 Paily-dev :- up in San Remo, Italy.  During World War II, he joined the
+:calvino.freenode.net 372 Paily-dev :- partisans during the German occupation and, after writing a
+:calvino.freenode.net 372 Paily-dev :- series of stories which drew on his experiences, he became a
+:calvino.freenode.net 372 Paily-dev :- journalist. His work included Mr. Palomar, Under the
+:calvino.freenode.net 372 Paily-dev :- Jaguar Sun, Cosmic
+I, [2011-04-30T21:06:49.311219 #11643]  INFO -- : Recieved: omics and t zero.  Calvino made
+:calvino.freenode.net 372 Paily-dev :- important contributions to Italian literature in the middle
+:calvino.freenode.net 372 Paily-dev :- of the last century.
+:calvino.freenode.net 372 Paily-dev :-  
+:cal
+I, [2011-04-30T21:06:49.368141 #11643]  INFO -- : Recieved: vino.freenode.net 372 Paily-dev :- You're using freenode, a service of Peer-Directed Projects
+:calvino.freenode.net 372 Paily-dev :- Center Ltd (http://freenode.net/pdpc.shtml).
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- PDPC's 2011 fundraiser launched on 14th February 2011. We would 
+:calvino.freenode.net 372 Paily-dev :- like to invite all users of freenode to get involved in the fun
+:calvino.freenode.net 372 Paily-dev :- of our Valentine-themed fundraiser launch 
+I, [2011-04-30T21:06:49.368669 #11643]  INFO -- : Recieved: - see 
+:calvino.freenode.net 372 Paily-dev :- http://freenode.net/pdpc_valentine.shtml for more!
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- On the subject of fundraisers, we'd like to thank our donors, 
+:calvino.freenode.net 372 Paily-dev :- hardware and bandwith sponsors and especially  The Gallery 
+:calvino.freenode.net 372 Paily-dev :- Project (http://gallery.menalto.com/) and our corporate sponsor 
+:calvino.freenode.net 372 Paily-dev :- Canonical Ltd (http://ww
+I, [2011-04-30T21:06:49.368991 #11643]  INFO -- : Recieved: w.canonical.com) for the generous 
+:calvino.freenode.net 372 Paily-dev :- support.
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- By connecting to freenode you indicate that you have read
+:calvino.freenode.net 372 Paily-dev :- and agree to adhere to our policies and procedures as per
+:calvino.freenode.net 372 Paily-dev :- the website (h
+I, [2011-04-30T21:06:49.372045 #11643]  INFO -- : Recieved: ttp://freenode.net). We would like to remind
+:calvino.freenode.net 372 Paily-dev :- you that unauthorized public logging of channels on the
+:calvino.freenode.net 372 Paily-dev :- network is prohibited. Public channel logging should only
+:calvino.freenode.net 372 Paily-dev :- take place where the channel owner(s) has requested this
+:calvino.freenode.net 372 Paily-dev :- and users of the channel are all made aware (if you are
+:calvino.freenode.net 372 Paily-dev :- publically logging your channel, you may
+I, [2011-04-30T21:06:49.372414 #11643]  INFO -- : Recieved:  wish to keep a
+:calvino.freenode.net 372 Paily-dev :- notice in topic and perhaps as a on-join message).
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- By registering your nickname with Nickserv you agree that you
+:calvino.freenode.net 372 Paily-dev :- are 13 years of age, or older. For more information about the
+:calvino.freenode.net 372 Paily-dev :- Children's Online Privacy Protection Act please see their
+:calvino.freenode.net 372 Paily-dev :- website at (http://ww
+I, [2011-04-30T21:06:49.372714 #11643]  INFO -- : Recieved: w.coppa.org).
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- freenode runs an open proxy scanner. Your use of the network
+:calvino.freenode.net 372 Paily-dev :- indicates your acceptance of this policy. For details on
+:calvino.freenode.net 372 Paily-dev :- freenode network policy, please take a look at our policy
+:calvino.freenode.net 3
+I, [2011-04-30T21:06:49.376110 #11643]  INFO -- : Recieved: 72 Paily-dev :- page (http://freenode.net/policy.shtml). Thank you for using
+:calvino.freenode.net 372 Paily-dev :- the network!
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- Don't forget to check out these other Peer-Directed Projects:
+:calvino.freenode.net 372 Paily-dev :- FOSSCON [http://www.fosscon.org] and fossevents 
+:calvino.freenode.net 372 Paily-dev :- [http://www.fossevents.org], and soon we'll repeat last years 
+:calvino.freenode.net 372 Paily-dev :- succes
+I, [2011-04-30T21:06:49.376574 #11643]  INFO -- : Recieved: s with Picnics for Geeks across the globe, more info at 
+:calvino.freenode.net 372 Paily-dev :- [http://geeknic.org]
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- freenode is a service of Peer-Directed Projects Center Ltd,
+:calvino.freenode.net 372 Paily-dev :- a not for profit organisation registered in England and Wales.
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- If you support the work we do and wish to donate to the PDPC, 
+:ca
+I, [2011-04-30T21:06:49.376894 #11643]  INFO -- : Recieved: lvino.freenode.net 372 Paily-dev :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- Thank you for using freenode!
+:calvino.freenode.net 372 Paily-dev :-  
+:calvino.freenode.net 372 Paily-dev :- ***************************************************************
+:calvino.freenode.net 372 Paily-dev :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:calvino.freenode.net 372 Paily-dev :- ***********
+I, [2011-04-30T21:06:49.377187 #11643]  INFO -- : Recieved: ****************************************************
+:calvino.freenode.net 376 Paily-dev :End of /MOTD command.
+:Paily-dev MODE Paily-dev :+i
+
+I, [2011-04-30T21:06:53.031719 #11643]  INFO -- : Recieved: :Paily-dev!~Paily-dev@hornby43.demon.co.uk JOIN :#pailytest
+
+I, [2011-04-30T21:06:53.131738 #11643]  INFO -- : Recieved: :calvino.freenode.net 353 Paily-dev @ #pailytest :Paily-dev Arcath
+:calvino.freenode.net 366 Paily-dev #pailytest :End of /NAMES list.
+
+I, [2011-04-30T21:07:00.487393 #11643]  INFO -- : Recieved: :Arcath!~arcath@hornby43.demon.co.uk PRIVMSG #pailytest :who am i
+
+I, [2011-04-30T21:07:00.978341 #11643]  INFO -- : Sending: PRIVMSG #pailytest :you are Arcath apprently
+I, [2011-04-30T21:09:16.034048 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:09:16.034682 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:11:24.036937 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:11:24.037495 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:13:32.039802 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:13:32.040306 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:15:40.042735 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:15:40.043419 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:17:48.049541 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:17:48.050000 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:19:56.040442 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:19:56.041091 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:22:04.055246 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:22:04.055683 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:24:12.038055 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:24:12.038516 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:26:20.081333 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:26:20.081772 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:28:28.107920 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:28:28.108365 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:30:36.038570 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:30:36.039060 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:32:44.041628 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:32:44.042142 #11643]  INFO -- : Sending: PONG arcath.net
+I, [2011-04-30T21:34:52.046853 #11643]  INFO -- : Recieved: PING :calvino.freenode.net
+
+I, [2011-04-30T21:34:52.047361 #11643]  INFO -- : Sending: PONG arcath.net
