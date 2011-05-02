@@ -1,308 +1,11 @@
-# Logfile created on Fri Apr 29 09:31:47 +0100 2011 by logger.rb/22285
-D, [2011-04-29T09:31:47.672779 #15067] DEBUG -- :   [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+# Logfile created on Mon May 02 12:25:24 +0100 2011 by logger.rb/22285
+D, [2011-05-02T12:25:24.400841 #10686] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
-D, [2011-04-29T09:31:47.683065 #15067] DEBUG -- :   [1m[35mSQL (9.4ms)[0m  select sqlite_version(*)
-D, [2011-04-29T09:31:47.825580 #15067] DEBUG -- :   [1m[36mSQL (141.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
-D, [2011-04-29T09:31:47.826569 #15067] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
-D, [2011-04-29T09:31:47.928917 #15067] DEBUG -- :   [1m[36mSQL (101.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
-D, [2011-04-29T09:31:47.930097 #15067] DEBUG -- :   [1m[35mSQL (0.5ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-
-D, [2011-04-29T09:31:47.932051 #15067] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T09:31:47.934492 #15067] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
-I, [2011-04-29T09:31:47.935017 #15067]  INFO -- : Migrating to CreateResponses (1)
-D, [2011-04-29T09:31:47.943584 #15067] DEBUG -- :   [1m[36mSQL (1.3ms)[0m  [1mCREATE TABLE "responses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "input" varchar(255), "output" varchar(255)) [0m
-D, [2011-04-29T09:31:47.946312 #15067] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('1')
-D, [2011-04-29T12:36:46.826353 #17595] DEBUG -- :   [1m[36mSQL (0.9ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T12:36:46.859516 #17595] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'bot fails!' LIMIT 1
-D, [2011-04-29T12:36:47.033370 #17595] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ARGH' LIMIT 1[0m
-D, [2011-04-29T12:37:10.356120 #17595] DEBUG -- :   [1m[35mResponse Load (0.8ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Paily: learn boom <reply> boom pow' LIMIT 1
-D, [2011-04-29T12:37:10.374892 #17595] DEBUG -- :   [1m[36mAREL (1.3ms)[0m  [1mINSERT INTO "responses" ("input", "output") VALUES ('boom', 'boom pow')[0m
-D, [2011-04-29T12:37:13.576724 #17595] DEBUG -- :   [1m[35mResponse Load (0.8ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1
-D, [2011-04-29T12:37:28.078211 #17595] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ARGH' LIMIT 1[0m
-D, [2011-04-29T12:38:45.607748 #17596] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T12:38:45.651378 #17596] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1
-D, [2011-04-29T12:38:48.666986 #17596] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Paily: learn boom <reply> boom pow' LIMIT 1[0m
-D, [2011-04-29T12:38:48.696608 #17596] DEBUG -- :   [1m[35mAREL (1.9ms)[0m  INSERT INTO "responses" ("input", "output") VALUES ('boom', 'boom pow')
-D, [2011-04-29T12:38:51.663048 #17596] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-29T12:38:56.970096 #17596] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Headshot?' LIMIT 1
-D, [2011-04-29T12:39:00.133622 #17596] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Headshot?' LIMIT 1[0m
-D, [2011-04-29T12:39:06.507292 #17596] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Paily: learn boom' LIMIT 1
-D, [2011-04-29T12:39:09.453379 #17596] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i see' LIMIT 1[0m
-D, [2011-04-29T12:39:25.926259 #17596] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'so why cant it find the response' LIMIT 1
-D, [2011-04-29T12:39:38.273411 #17596] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'because it lost it?' LIMIT 1[0m
-D, [2011-04-29T12:51:32.219486 #17885] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T12:51:32.250065 #17885] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Paily: learn boom <reply> boom pow' LIMIT 1
-D, [2011-04-29T12:51:32.266795 #17885] DEBUG -- :   [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO "responses" ("input", "output") VALUES ('boom', 'boom pow')[0m
-D, [2011-04-29T12:51:39.826868 #17885] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ok so its saving it' LIMIT 1
-D, [2011-04-29T12:51:43.078421 #17885] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-29T12:51:48.103052 #17885] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'just not finding it' LIMIT 1
-D, [2011-04-29T12:51:52.982402 #17885] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Headshot?' LIMIT 1[0m
-D, [2011-04-29T12:51:53.923461 #17885] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1
-D, [2011-04-29T12:51:58.286862 #17885] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'where is it stored?' LIMIT 1[0m
-D, [2011-04-29T12:52:24.007108 #17892] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T12:52:24.047442 #17892] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'in an sqlite3 db' LIMIT 1
-D, [2011-04-29T12:52:32.285708 #17892] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1[0m
-D, [2011-04-29T12:52:37.108795 #17892] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'and the listen function is bieng called' LIMIT 1
-D, [2011-04-29T12:52:47.141008 #17892] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'mine uses a text file' LIMIT 1[0m
-D, [2011-04-29T12:52:51.875513 #17892] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'cool' LIMIT 1
-D, [2011-04-29T12:54:44.057895 #17905] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T12:54:44.098433 #17905] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'it should be returning an object now' LIMIT 1
-D, [2011-04-29T12:54:48.154128 #17905] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-29T12:54:51.403099 #17905] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i see' LIMIT 1
-D, [2011-04-29T12:54:59.329881 #17905] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'Headshot?' LIMIT 1[0m
-D, [2011-04-29T12:55:03.009577 #17905] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'find_by_input usint working' LIMIT 1
-D, [2011-04-29T12:59:04.070785 #17916] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-29T12:59:04.103673 #17916] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1
-D, [2011-04-29T12:59:08.953880 #17916] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1[0m
-D, [2011-04-29T13:00:16.383927 #17916] DEBUG -- :   [1m[35mResponse Load (0.9ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'very much so' LIMIT 1
-D, [2011-04-29T13:00:29.318153 #17916] DEBUG -- :   [1m[36mResponse Load (0.7ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'so either the db is empty' LIMIT 1[0m
-D, [2011-04-29T13:00:33.673923 #17916] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'or' LIMIT 1
-D, [2011-04-29T13:00:41.054121 #17916] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'the search is wrong' LIMIT 1[0m
-D, [2011-04-29T13:00:43.140927 #17916] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1
-D, [2011-04-29T13:00:54.037182 #17916] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'argh' LIMIT 1[0m
-D, [2011-04-29T13:18:25.358782 #18214] DEBUG -- :   [1m[36mResponse Load (2.0ms)[0m  [1mSELECT "responses".* FROM "responses"[0m
-D, [2011-04-29T13:18:25.381011 #18214] DEBUG -- :   [1m[35mSQL (0.9ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-
-D, [2011-04-29T13:18:25.464028 #18214] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ignore paily' LIMIT 1[0m
-D, [2011-04-29T13:18:53.951940 #18214] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses"
-D, [2011-04-29T13:18:53.956440 #18214] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i intend to :p' LIMIT 1[0m
-D, [2011-04-29T13:19:00.008712 #18214] DEBUG -- :   [1m[35mResponse Load (0.9ms)[0m  SELECT "responses".* FROM "responses"
-D, [2011-04-29T13:19:00.012364 #18214] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i was doing anyway' LIMIT 1[0m
-D, [2011-04-29T13:27:17.991734 #18214] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses"
-D, [2011-04-29T13:27:17.995134 #18214] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ar' LIMIT 1[0m
-D, [2011-04-29T13:27:20.687333 #18214] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses"
-D, [2011-04-29T13:27:20.690896 #18214] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'arcath: https://github.com/banister/pry' LIMIT 1[0m
-D, [2011-04-30T17:41:05.105046 #8769] DEBUG -- :   [1m[36mResponse Load (1.9ms)[0m  [1mSELECT "responses".* FROM "responses" LIMIT 1[0m
-D, [2011-04-30T17:41:05.135775 #8769] DEBUG -- :   [1m[35mSQL (1.0ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-
-D, [2011-04-30T17:41:05.193890 #8769] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-30T17:41:07.229933 #8769] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" LIMIT 1
-D, [2011-04-30T17:41:07.233900 #8769] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1[0m
-D, [2011-04-30T17:41:12.493215 #8769] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" LIMIT 1
-D, [2011-04-30T17:41:12.496065 #8769] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'how very queer' LIMIT 1[0m
-D, [2011-04-30T17:42:06.819215 #8774] DEBUG -- :   [1m[36mResponse Load (1.8ms)[0m  [1mSELECT "responses".* FROM "responses" LIMIT 1[0m
-D, [2011-04-30T17:42:06.843020 #8774] DEBUG -- :   [1m[35mSQL (0.8ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-
-D, [2011-04-30T17:42:06.922736 #8774] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-30T17:42:12.664768 #8774] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" LIMIT 1
-D, [2011-04-30T17:42:12.669215 #8774] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i do indeed wonder where ed is' LIMIT 1[0m
-D, [2011-04-30T17:42:41.966709 #8779] DEBUG -- :   [1m[36mResponse Load (1.7ms)[0m  [1mSELECT "responses".* FROM "responses" LIMIT 1[0m
-D, [2011-04-30T17:42:41.987716 #8779] DEBUG -- :   [1m[35mSQL (0.7ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-
-D, [2011-04-30T17:42:42.025989 #8779] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-30T17:42:54.050085 #8779] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" LIMIT 1
-D, [2011-04-30T17:42:54.053016 #8779] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1[0m
-D, [2011-04-30T17:42:54.238971 #8779] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" LIMIT 1
-D, [2011-04-30T17:42:54.250151 #8779] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'is amalthea''s love of headshots a clue to that?' LIMIT 1[0m
-D, [2011-04-30T17:42:58.582867 #8779] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" LIMIT 1
-D, [2011-04-30T17:42:58.587164 #8779] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1[0m
-D, [2011-04-30T17:44:26.165956 #8791] DEBUG -- :   [1m[36mSQL (0.9ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T17:44:26.167192 #8791] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  select sqlite_version(*)
-D, [2011-04-30T17:44:26.315699 #8791] DEBUG -- :   [1m[36mSQL (147.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
-D, [2011-04-30T17:44:26.316911 #8791] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
-D, [2011-04-30T17:44:26.408865 #8791] DEBUG -- :   [1m[36mSQL (91.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
-D, [2011-04-30T17:44:26.410087 #8791] DEBUG -- :   [1m[35mSQL (0.5ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-
-D, [2011-04-30T17:44:26.412609 #8791] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T17:44:26.415691 #8791] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
-I, [2011-04-30T17:44:26.416337 #8791]  INFO -- : Migrating to CreateResponses (1)
-D, [2011-04-30T17:44:26.428011 #8791] DEBUG -- :   [1m[36mSQL (1.9ms)[0m  [1mCREATE TABLE "responses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "input" varchar(255), "output" varchar(255)) [0m
-D, [2011-04-30T17:44:26.431628 #8791] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('1')
-D, [2011-04-30T17:44:41.136840 #8792] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T17:44:41.174995 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'now' LIMIT 1
-D, [2011-04-30T17:44:43.174968 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'live?' LIMIT 1[0m
-D, [2011-04-30T17:44:55.599520 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1
-D, [2011-04-30T17:44:59.285104 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-30T17:45:13.320894 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1
-D, [2011-04-30T17:45:50.278780 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn headshot? <reply> amalthea: what have you done to ed?' LIMIT 1[0m
-D, [2011-04-30T17:45:50.309079 #8792] DEBUG -- :   [1m[35mAREL (1.3ms)[0m  INSERT INTO "responses" ("input", "output") VALUES ('headshot?', 'Amalthea: What have you done to ed?')
-D, [2011-04-30T17:45:53.139238 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-30T17:45:57.262675 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'argh' LIMIT 1
-D, [2011-04-30T17:46:00.995167 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'hahahaha' LIMIT 1[0m
-D, [2011-04-30T17:46:01.447069 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'amalthea: whore' LIMIT 1
-D, [2011-04-30T17:46:03.959217 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1[0m
-D, [2011-04-30T17:46:06.149416 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'epic' LIMIT 1
-D, [2011-04-30T17:46:12.126676 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i''m just going to ignore the tool above' LIMIT 1[0m
-D, [2011-04-30T17:46:14.107922 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'argh' LIMIT 1
-D, [2011-04-30T17:46:17.595611 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'hahahahaha' LIMIT 1[0m
-D, [2011-04-30T17:46:20.564195 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'fucking epci' LIMIT 1
-D, [2011-04-30T17:46:20.868119 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'you bitch' LIMIT 1[0m
-D, [2011-04-30T17:46:23.463636 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1
-D, [2011-04-30T17:46:25.836916 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i love you amalthea' LIMIT 1[0m
-D, [2011-04-30T17:46:34.184359 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1
-D, [2011-04-30T17:47:12.194758 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'that was epci' LIMIT 1[0m
-D, [2011-04-30T17:47:17.482874 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'also, seems you''ve triggered :p' LIMIT 1
-D, [2011-04-30T17:47:20.838874 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'that was' LIMIT 1[0m
-D, [2011-04-30T17:48:08.677087 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'but yes triggers work' LIMIT 1
-D, [2011-04-30T17:48:37.130444 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'time for good triggers i think' LIMIT 1[0m
-D, [2011-04-30T17:48:52.781906 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'although' LIMIT 1
-D, [2011-04-30T17:49:03.962309 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'am i having the same db quries problem?' LIMIT 1[0m
-D, [2011-04-30T17:49:10.982745 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1
-D, [2011-04-30T17:49:15.999246 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'doesnt look like it' LIMIT 1[0m
-D, [2011-04-30T17:49:44.456447 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'boom' LIMIT 1
-D, [2011-04-30T17:49:54.321415 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i removed boom' LIMIT 1[0m
-D, [2011-04-30T17:49:56.433600 #8792] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'headshot?' LIMIT 1
-D, [2011-04-30T17:49:58.137396 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ahh ok' LIMIT 1[0m
-D, [2011-04-30T17:50:04.321841 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'well i removed the whole database and started again' LIMIT 1
-D, [2011-04-30T17:50:09.685336 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'good idea' LIMIT 1[0m
-D, [2011-04-30T17:50:10.905284 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'seeing as there was multiboom' LIMIT 1
-D, [2011-04-30T17:50:21.555202 #8792] DEBUG -- :   [1m[36mResponse Load (1.0ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'need to improve the dbcmds class' LIMIT 1[0m
-D, [2011-04-30T17:50:45.102613 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn http:// <reply> not another link!' LIMIT 1
-D, [2011-04-30T17:50:45.107744 #8792] DEBUG -- :   [1m[36mAREL (1.2ms)[0m  [1mINSERT INTO "responses" ("input", "output") VALUES ('http://', 'not another link!')[0m
-D, [2011-04-30T17:50:57.107715 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://' LIMIT 1
-D, [2011-04-30T17:51:15.775973 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = ' http://totallylookslike.files.wordpress.com/2011/04/9de4c261-6469-4166-8e1c-2b31183ccd19.jpg' LIMIT 1[0m
-D, [2011-04-30T17:51:20.152195 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'i was thinking we need some syntax for regex' LIMIT 1
-D, [2011-04-30T17:51:30.438000 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'well maybe restrict it to glob' LIMIT 1[0m
-D, [2011-04-30T17:51:51.489411 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'so http://+++' LIMIT 1
-D, [2011-04-30T17:52:04.911360 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://% would work' LIMIT 1[0m
-D, [2011-04-30T17:52:09.839064 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://*' LIMIT 1
-D, [2011-04-30T17:52:16.270910 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'yeah % would make senes' LIMIT 1[0m
-D, [2011-04-30T17:52:16.591589 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'sql syntax' LIMIT 1
-D, [2011-04-30T17:52:22.827526 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'just change the match to a like' LIMIT 1[0m
-D, [2011-04-30T17:52:51.172468 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn http://% <reply> not another link!' LIMIT 1
-D, [2011-04-30T17:52:51.176663 #8792] DEBUG -- :   [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO "responses" ("input", "output") VALUES ('http://%', 'not another link!')[0m
-D, [2011-04-30T17:52:53.176940 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'time to inject!' LIMIT 1
-D, [2011-04-30T17:52:58.225397 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1[0m
-D, [2011-04-30T17:53:04.249773 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'nope' LIMIT 1
-D, [2011-04-30T17:53:08.677237 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'an equals wont match that' LIMIT 1[0m
-D, [2011-04-30T17:53:16.130261 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'it''s probably getting excaped!' LIMIT 1
-D, [2011-04-30T17:53:19.913848 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'oh' LIMIT 1[0m
-D, [2011-04-30T17:53:21.725951 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'no' LIMIT 1
-D, [2011-04-30T17:53:30.134020 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'awww' LIMIT 1[0m
-D, [2011-04-30T17:54:00.138915 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'the http://% is inside the db' LIMIT 1
-D, [2011-04-30T17:54:07.907325 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'so the like would be a wrong way round' LIMIT 1[0m
-D, [2011-04-30T17:54:15.159790 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ahh yes' LIMIT 1
-D, [2011-04-30T17:54:48.681883 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'the search needs to be better' LIMIT 1[0m
-D, [2011-04-30T17:54:53.529294 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'glob would be better then, apply the stored glob to each thing' LIMIT 1
-D, [2011-04-30T17:55:00.741734 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'glob?' LIMIT 1[0m
-D, [2011-04-30T17:55:20.819543 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'what gets used in shell matching' LIMIT 1
-D, [2011-04-30T17:55:36.787941 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'ok...' LIMIT 1[0m
-D, [2011-04-30T17:57:08.196758 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'it just restricts regex to [?*\[\]]' LIMIT 1
-D, [2011-04-30T17:57:45.336800 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'as in ?→. *→.* []→[]' LIMIT 1[0m
-D, [2011-04-30T17:58:30.099540 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'meh, full regex might be easier' LIMIT 1
-D, [2011-04-30T17:59:46.322065 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://en.wikipedia.org/wiki/wildmat is basically the ''glob'' syntax' LIMIT 1[0m
-D, [2011-04-30T18:00:31.692843 #8792] DEBUG -- :   [1m[35mResponse Load (0.8ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'im thinking search for the normal input if nothings found then pull the inputs with a % in and run compares' LIMIT 1
-D, [2011-04-30T18:01:24.903294 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'as in do a == and then a ~= ?' LIMIT 1[0m
-D, [2011-04-30T18:01:48.679601 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'do a find_by_input(your mesage)' LIMIT 1
-D, [2011-04-30T18:02:19.685493 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'if that doesnt find anything then fetch the special matchers' LIMIT 1[0m
-D, [2011-04-30T18:03:45.068862 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'so where("input like ?","%")' LIMIT 1
-D, [2011-04-30T18:04:08.492799 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'w/e' LIMIT 1[0m
-D, [2011-04-30T18:04:13.733932 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'it''ll only break :p' LIMIT 1
-D, [2011-04-30T18:07:56.291118 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '...' LIMIT 1[0m
-D, [2011-04-30T18:08:25.716553 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = '*cue smooth-fail* :p' LIMIT 1
-D, [2011-04-30T18:24:56.267053 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'suddenly, crumbs...everywhere' LIMIT 1[0m
-D, [2011-04-30T18:31:32.866788 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1
-D, [2011-04-30T19:00:28.511576 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'did you watch who doctor?' LIMIT 1[0m
-D, [2011-04-30T19:02:08.860766 #8792] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'oh...not yet no ...' LIMIT 1
-D, [2011-04-30T19:02:09.641071 #8792] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1[0m
-D, [2011-04-30T19:02:13.049329 #8792] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'foergot >.>' LIMIT 1
-D, [2011-04-30T19:02:52.581951 #8792] DEBUG -- :   [1m[36mResponse Load (0.4ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'oh dear' LIMIT 1[0m
-D, [2011-04-30T19:06:16.214286 #8792] DEBUG -- :   [1m[35mResponse Load (0.4ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'castaway!' LIMIT 1
-D, [2011-04-30T19:06:25.335788 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '?' LIMIT 1[0m
-D, [2011-04-30T19:06:26.607239 #8792] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'lol' LIMIT 1
-D, [2011-04-30T19:08:55.998599 #8792] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'right im just going to pop paily into a git repo and move it onto my vm' LIMIT 1[0m
-D, [2011-04-30T19:58:59.991787 #10595] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T19:59:00.026646 #10595] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
-D, [2011-04-30T20:00:41.793569 #10763] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T20:00:41.833224 #10763] DEBUG -- :   [1m[35mResponse Load (0.5ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
-D, [2011-04-30T20:00:41.836323 #10763] DEBUG -- :   [1m[36mResponse Load (0.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%')[0m
-D, [2011-04-30T20:01:21.959803 #10796] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T20:01:22.004510 #10796] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
-D, [2011-04-30T20:01:22.008080 #10796] DEBUG -- :   [1m[36mResponse Load (1.0ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%')[0m
-D, [2011-04-30T20:04:05.827376 #10901] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T20:04:05.870732 #10901] DEBUG -- :   [1m[35mResponse Load (2.0ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
-D, [2011-04-30T20:04:05.879884 #10901] DEBUG -- :   [1m[36mResponse Load (0.9ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%%%')[0m
-D, [2011-04-30T20:10:58.835313 #10919] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T20:10:58.875637 #10919] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'yeah' LIMIT 1
-D, [2011-04-30T20:10:58.879486 #10919] DEBUG -- :   [1m[36mResponse Load (1.0ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '%%%' LIMIT 1[0m
-D, [2011-04-30T20:11:01.240330 #10919] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
-D, [2011-04-30T20:11:01.244531 #10919] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = '%%%' LIMIT 1[0m
-D, [2011-04-30T20:32:36.055664 #11310] DEBUG -- :   [1m[36mSQL (0.8ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T20:32:36.090967 #11310] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily-dev: learn http://++ <reply> not another link!' LIMIT 1
-D, [2011-04-30T20:32:36.093905 #11310] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
-D, [2011-04-30T20:32:51.723997 #11310] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn http://++ <reply> not another link!' LIMIT 1
-D, [2011-04-30T20:32:51.726991 #11310] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
-D, [2011-04-30T20:32:51.746464 #11310] DEBUG -- :   [1m[35mAREL (1.5ms)[0m  INSERT INTO "responses" ("input", "output") VALUES ('http://++', 'not another link!')
-D, [2011-04-30T20:33:01.623874 #11310] DEBUG -- :   [1m[36mResponse Load (0.6ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1[0m
-D, [2011-04-30T20:33:01.626514 #11310] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')
-D, [2011-04-30T20:39:55.118648 #11320] DEBUG -- :   [1m[36mSQL (0.7ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T20:39:55.155963 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'test' LIMIT 1
-D, [2011-04-30T20:39:55.159269 #11320] DEBUG -- :   [1m[36mResponse Load (0.7ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
-D, [2011-04-30T20:40:01.172441 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'http://www.arcath.net' LIMIT 1
-D, [2011-04-30T20:40:01.176565 #11320] DEBUG -- :   [1m[36mResponse Load (1.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
-D, [2011-04-30T21:06:28.363935 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily learn who am i <reply> you are +nick+ apprently' LIMIT 1
-D, [2011-04-30T21:06:28.366010 #11320] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
-D, [2011-04-30T21:06:33.896281 #11320] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: learn who am i <reply> you are +nick+ apprently' LIMIT 1
-D, [2011-04-30T21:06:33.899081 #11320] DEBUG -- :   [1m[36mResponse Load (0.7ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
-D, [2011-04-30T21:06:33.912670 #11320] DEBUG -- :   [1m[35mAREL (6.4ms)[0m  INSERT INTO "responses" ("input", "output") VALUES ('who am i', 'you are +nick+ apprently')
-D, [2011-04-30T21:06:38.583995 #11320] DEBUG -- :   [1m[36mResponse Load (0.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE "responses"."input" = 'who am i' LIMIT 1[0m
-D, [2011-04-30T21:07:00.914839 #11643] DEBUG -- :   [1m[36mSQL (0.6ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-D, [2011-04-30T21:07:00.963582 #11643] DEBUG -- :   [1m[35mResponse Load (0.8ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'who am i' LIMIT 1
+D, [2011-05-02T12:25:24.447889 #10686] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: what is 1+1' LIMIT 1
+D, [2011-05-02T12:25:24.451918 #10686] DEBUG -- :   [1m[36mResponse Load (0.8ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-05-02T12:25:29.388913 #10686] DEBUG -- :   [1m[35mResponse Load (0.7ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: what is 9**9' LIMIT 1
+D, [2011-05-02T12:25:29.391791 #10686] DEBUG -- :   [1m[36mResponse Load (0.7ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
+D, [2011-05-02T12:25:37.836133 #10686] DEBUG -- :   [1m[35mResponse Load (0.6ms)[0m  SELECT "responses".* FROM "responses" WHERE "responses"."input" = 'paily: what is 9^9' LIMIT 1
+D, [2011-05-02T12:25:37.838152 #10686] DEBUG -- :   [1m[36mResponse Load (0.5ms)[0m  [1mSELECT "responses".* FROM "responses" WHERE (input LIKE '%++%')[0m
